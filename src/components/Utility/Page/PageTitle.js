@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import DownloadBtn from "../Utility/Buttons/DownloadBtn";
+import DownloadBtn from "../Buttons/DownloadBtn";
 
 export default class PageTitle extends Component {
   render() {

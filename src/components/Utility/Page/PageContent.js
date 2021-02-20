@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
-import Profile from "../Pages/HomePage/Profile";
-import PortfolioGrid from "../Pages/PortfolioPage/PortfolioGrid";
-import PortfolioFilter from "../Pages/PortfolioPage/PortfolioFilter";
-import SkillGrid from "../Pages/ResumePage/SkillGrid";
-import Certificates from "../Pages/ResumePage/Certificates";
-import BlockContent from "../Utility/Block/BlockContent";
-import BlockTitle from "../Utility/Block/BlockTitle";
-import Contact from "../Pages/ContactPage/Contact";
-import Form from "../Pages/ContactPage/Form";
+import Profile from "../../Pages/HomePage/Profile";
+import PortfolioGrid from "../../Pages/PortfolioPage/PortfolioGrid";
+import PortfolioFilter from "../../Pages/PortfolioPage/PortfolioFilter";
+import SkillGrid from "../../Pages/ResumePage/SkillGrid";
+import Certificates from "../../Pages/ResumePage/Certificates";
+import BlockContent from "../Block/BlockContent";
+import BlockTitle from "../Block/BlockTitle";
+import Contact from "../../Pages/ContactPage/Contact";
+import Form from "../../Pages/ContactPage/Form";
 
 export default class PageContent extends Component {
   render() {
