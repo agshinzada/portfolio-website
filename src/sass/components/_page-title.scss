@@ -1,0 +1,15 @@
+.page {
+  &__title {
+    position: relative;
+    padding: 5rem;
+    border-bottom: 1px solid $color-dark-light;
+    border-top: 1px solid $color-dark-light;
+    background-color: $color-dark-light-2;
+
+    & h4 {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+  }
+}

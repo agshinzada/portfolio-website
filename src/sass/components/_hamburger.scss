@@ -1,0 +1,32 @@
+.menu-icon {
+  display: none;
+  // position: fixed;
+  // top: 25px;
+  // right: 25px;
+  cursor: pointer;
+  z-index: 21;
+  @include respond(medium) {
+    display: block;
+  }
+}
+
+.nav-list {
+  @include respond(medium) {
+    display: none;
+  }
+
+  &.responsive {
+    @include respond(medium) {
+      display: block;
+      background-color: $color-dark;
+      flex-direction: column;
+      position: fixed;
+      right: 0;
+      top: 60px;
+      width: 35vw;
+      box-shadow: 5px 15px 30px $color-black;
+      padding: 3rem;
+      z-index: 20;
+    }
+  }
+}

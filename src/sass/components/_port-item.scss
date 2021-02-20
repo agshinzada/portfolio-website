@@ -1,0 +1,75 @@
+.portfolio {
+  &__item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px $color-dark-light-2;
+  }
+
+  &__items &__item:hover {
+    opacity: 1;
+  }
+}
+
+.item {
+  &__title,
+  &__lang {
+    background-color: $color-black;
+    color: $color-white;
+    width: auto;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    position: absolute;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    top: 2rem;
+    left: 3rem;
+
+    @include respond(medium) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__lang {
+    font-size: 1.1rem;
+    padding: 5px 2rem;
+    bottom: 2rem;
+    left: 3rem;
+    @include respond(medium) {
+      font-size: 1rem;
+    }
+  }
+
+  &__link {
+    width: 3rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 1.6rem;
+  }
+
+  &__img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transform: scale(1);
+    transition: all 0.5s;
+
+    &:hover {
+      transform: scale(1.15);
+      opacity: 1;
+    }
+  }
+}

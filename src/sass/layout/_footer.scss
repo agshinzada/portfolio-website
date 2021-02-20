@@ -1,0 +1,34 @@
+.footer {
+  &::before {
+    content: "";
+    display: block;
+    background-color: $color-dark-light;
+    height: 1px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    @include respond(medium) {
+      padding: 1rem 1rem;
+    }
+
+    @include respond(extra-small) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__social {
+    display: flex;
+    @include respond(extra-small) {
+      justify-content: center;
+    }
+  }
+
+  &__copyright {
+    font-size: 1.2rem;
+    align-self: center;
+  }
+}

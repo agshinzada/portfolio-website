@@ -1,0 +1,11 @@
+.portfolio {
+  &__filters {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    @include respond(small) {
+      justify-content: center;
+    }
+  }
+}

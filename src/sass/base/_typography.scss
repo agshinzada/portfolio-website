@@ -1,0 +1,103 @@
+.root {
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary,
+    $color-secondary
+  );
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  @include respond(extra-small) {
+    align-items: stretch;
+  }
+}
+
+.container {
+  background-color: $color-dark;
+  width: 93vw;
+  height: auto;
+  margin: 3rem auto;
+  border-radius: 5rem;
+  box-shadow: 0 0 5px $color-dark;
+
+  @include respond(medium) {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.heading-4 {
+  font-size: 1.8rem;
+  @include respond(medium) {
+    font-size: 1.4rem;
+  }
+}
+
+.heading-5 {
+  font-size: 1.4rem;
+  @include respond(medium) {
+    font-size: 1.2rem;
+  }
+}
+
+.heading-6 {
+  font-size: 1.2rem;
+  @include respond(medium) {
+    font-size: 1rem;
+  }
+}
+
+.heading-3 {
+  font-size: 2.3rem;
+  @include respond(medium) {
+    font-size: 1.6rem;
+  }
+}
+
+.heading-2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: $color-white;
+  @include respond(medium) {
+    font-size: 2.2rem;
+  }
+}
+
+.heading-1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+
+  @include respond(medium) {
+    font-size: 3.6rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: $color-light-2;
+  @include respond(medium) {
+    font-size: 1.2rem;
+  }
+}
+
+.row {
+  width: 100%;
+  padding: 1rem 7rem;
+
+  @include respond(large) {
+    padding: 1rem 5rem;
+  }
+}
+
+.row--2 {
+  width: 100%;
+  padding: 1rem 15rem;
+}
