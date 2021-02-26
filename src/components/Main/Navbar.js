@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Burger from "./Burger";
+import Menu from "./Menu";
 
 export default class Navbar extends Component {
   render() {
@@ -34,7 +36,8 @@ export default class Navbar extends Component {
             </ul>
           </div>
         </div>
-        <img src="img/svg/icons8-menu.svg" alt="menu" className="menu-icon" />
+        <Menu />
+        <Burger/>
       </header>
     );
   }
