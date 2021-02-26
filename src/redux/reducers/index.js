@@ -2,13 +2,13 @@ import { combineReducers } from "redux";
 import portfolioListReducer from "./portfolioListReducer";
 import filterListReducer from "./filterListReducer";
 import loadModalReducer from "./loadModalReducer";
-import openModalReducer from "./openModalReducer";
+import displayModalReducer from "./displayModalReducer";
 import menuReducer from "./menuReducer";
 const reducers = combineReducers({
   portfolioListReducer,
   filterListReducer,
   loadModalReducer,
-  openModalReducer,
+  displayModalReducer,
   menuReducer,
 });
 
