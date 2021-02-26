@@ -9,6 +9,7 @@ import BlockContent from "../Block/BlockContent";
 import BlockTitle from "../Block/BlockTitle";
 import Contact from "../../Pages/ContactPage/Contact";
 import Form from "../../Pages/ContactPage/Form";
+import PortfolioModal from "../Modal/PortfolioModal";
 
 export default class PageContent extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class PageContent extends Component {
                 <Profile />
                 <BlockTitle title="Pinned projects" />
                 <PortfolioGrid home="pin" />
+                <PortfolioModal />
               </Fragment>
             )}
           />
@@ -48,6 +50,7 @@ export default class PageContent extends Component {
               <Fragment>
                 <PortfolioFilter />
                 <PortfolioGrid />
+                <PortfolioModal />
               </Fragment>
             )}
           />

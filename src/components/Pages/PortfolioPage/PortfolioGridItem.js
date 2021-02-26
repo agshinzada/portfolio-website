@@ -8,6 +8,12 @@ class PortfolioGridItem extends Component {
     let pin = this.props.home;
     this.props.actions.getPortfolio(pin);
   }
+
+  successModal = (data) => {
+    this.props.actions.loadModalItem(data);
+    this.props.actions.openModalItem(true);
+  };
+
   render() {
     return (
       <Fragment>
@@ -17,7 +23,12 @@ class PortfolioGridItem extends Component {
             id="{item.id}"
             key={item.id}
           >
-            <img src={item.img} alt="Project photo" className="item__img" />
+            <img
+              src={item.img}
+              alt="Project photo"
+              className="item__img"
+              onClick={() => this.successModal(item)}
+            />
             <figcaption className="item__title">{item.name}</figcaption>
             <span className="item__lang">{item.banner}</span>
             <a href={item.github} target="_blank">
@@ -44,6 +55,14 @@ function mapDispatchToProps(dispatch) {
   return {
     actions: {
       getPortfolio: bindActionCreators(portfolioActions.getData, dispatch),
+      loadModalItem: bindActionCreators(
+        portfolioActions.loadPortfolioModal,
+        dispatch
+      ),
+      openModalItem: bindActionCreators(
+        portfolioActions.openPortfolioModal,
+        dispatch
+      ),
     },
   };
 }

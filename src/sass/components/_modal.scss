@@ -33,19 +33,24 @@
     & .span {
       display: flex;
       justify-content: space-between;
-      width: 18vw;
+      // width: 18vw;
       font-size: 1.4rem;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+
       @include respond(medium) {
         font-size: 1.2rem;
-        width: 22vw;
+        // width: 22vw;
       }
       @include respond(small) {
         font-size: 1.2rem;
-        width: 35vw;
+        // width: 35vw;
       }
       @include respond(extra-small) {
         font-size: 1.2rem;
-        width: 50vw;
+        // width: 50vw;
       }
       &__title {
         color: $color-white;
@@ -78,7 +83,7 @@
       display: flex;
       justify-content: center;
     }
-    & button {
+    & a {
       &:not(:last-child) {
         margin-right: 1.5rem;
       }

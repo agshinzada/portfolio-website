@@ -4,6 +4,14 @@ export function getPortfolioSuccess(data) {
   return { type: actionTypes.GET_PORTFOLIO_ITEMS_SUCCESS, payload: data };
 }
 
+export function loadPortfolioModal(data) {
+  return { type: actionTypes.LOAD_PORTFOLIO_MODAL, payload: data };
+}
+
+export function openPortfolioModal(data) {
+  return { type: actionTypes.OPEN_PORTFOLIO_MODAL, payload: data };
+}
+
 export function getData(filter) {
   return async function (dispatch) {
     const resp = await fetch("json/portfolio.json", {
