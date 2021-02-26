@@ -5,13 +5,14 @@
     "about": "Nexter Responsive website. Using CSS Grid.",
     "github": "https://github.com/agshinzada/nexter",
     "img": "/img/port/nexter.png",
-    "img2": "/img/port/1.png",
-    "img3": "/img/port/1.png",
+    "img2": "/img/port/nexter1.png",
+    "img3": "/img/port/nexter2.png",
     "banner": "HTML5, CSS3",
     "technology": "HTML5, CSS3, SASS, SCSS",
     "date": "31 January 2021",
     "pin": 1,
-    "filter": "HTML"
+    "filter": "HTML",
+    "link": "https://agshinzada.github.io/nexter/"
   },
   {
     "id": 2,
@@ -19,13 +20,14 @@
     "about": "Trillo Responsive website. Use Flexbox.",
     "github": "https://github.com/agshinzada/trillo",
     "img": "/img/port/trillo.png",
-    "img2": "/img/port/1.png",
-    "img3": "/img/port/1.png",
+    "img2": "/img/port/trillo1.png",
+    "img3": "/img/port/trillo2.png",
     "banner": "HTML5, CSS3",
     "technology": "HTML5, CSS3, SASS, SCSS",
     "date": "26 January 2021",
     "pin": 1,
-    "filter": "HTML"
+    "filter": "HTML",
+    "link": "https://agshinzada.github.io/trillo/"
   },
   {
     "id": 3,
@@ -33,13 +35,14 @@
     "about": "Natours Responsive website. Use custom grid with floats. Project structure: BEM and SASS (7-1 pattern)",
     "github": "https://github.com/agshinzada/natours",
     "img": "/img/port/natours.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img2": "/img/port/natours1.png",
+    "img3": "/img/port/natours2.png",
     "banner": "HTML5, CSS3",
     "technology": "HTML5, CSS3, SASS, SCSS, BEM, 7-1 pattern",
     "date": "23 January 2021",
     "pin": 0,
-    "filter": "HTML"
+    "filter": "HTML",
+    "link": "https://agshinzada.github.io/natours/"
   },
   {
     "id": 4,
@@ -47,27 +50,29 @@
     "about": "Omnifood Responsive website",
     "github": "https://github.com/agshinzada/omnifood",
     "img": "/img/port/omnifood.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img2": "/img/port/omnifood1.png",
+    "img3": "/img/port/omnifood2.png",
     "banner": "HTML5, CSS3",
     "technology": "HTML5, CSS3",
     "date": "14 January 2021",
     "pin": 0,
-    "filter": "HTML"
+    "filter": "HTML",
+    "link": "https://agshinzada.github.io/omnifood/index.html"
   },
   {
     "id": 5,
     "name": "Pig-game",
     "about": "Basic game written with javascript. If dice 1 switching player. 100 points win.",
     "github": "https://github.com/agshinzada/pig-game",
-    "img": "/img/port/pig-game.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img": "/img/port/piggame.png",
+    "img2": "/img/port/piggame1.png",
+    "img3": "/img/port/piggame2.png",
     "banner": "HTML5, CSS3, JS",
     "technology": "HTML5, CSS3, Javascript",
     "date": "26 December 2020",
     "pin": 1,
-    "filter": "Javascript"
+    "filter": "Javascript",
+    "link": "https://agshinzada.github.io/pig-game/"
   },
   {
     "id": 6,
@@ -75,13 +80,14 @@
     "about": "Basic application with NodeJS (babel,webpack)",
     "github": "https://github.com/agshinzada/employeersWeb",
     "img": "/img/port/employeers.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img2": "/img/port/employeers1.png",
+    "img3": null,
     "banner": "HTML5, CSS3, JS",
     "technology": "HTML5, CSS3, Javascript, Babel, Webpack",
     "date": "13 December 2020",
     "pin": 0,
-    "filter": "Javascript"
+    "filter": "Javascript",
+    "link": "https://agshinzada.github.io/employeersWeb/index.html"
   },
   {
     "id": 7,
@@ -89,41 +95,44 @@
     "about": "The function of the application is add a new sms to the db and constantly check unprocessed sms and send these to the appropriate clients.",
     "github": "https://github.com/agshinzada/sms-sender",
     "img": "/img/port/java.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img2": "/img/port/java.png",
+    "img3": null,
     "banner": "JAVA",
     "technology": "JAVA, Maven",
     "date": "7 October 2020",
     "pin": 1,
-    "filter": "Java"
+    "filter": "Java",
+    "link": null
   },
   {
     "id": 8,
     "name": "Customer tracker",
     "about": "Basic Spring MVC + Hibernate application",
     "github": "https://github.com/agshinzada/spring-mvc-customer-tracker",
-    "img": "/img/port/customer.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img": "/img/port/spring.png",
+    "img2": "/img/port/spring.png",
+    "img3": null,
     "banner": "JAVA, Hibernate",
     "technology": "JAVA, Maven, Spring, Hibernate, MVC",
     "date": "15 September 2020",
     "pin": 0,
-    "filter": "Java"
+    "filter": "Java",
+    "link": null
   },
   {
     "id": 9,
     "name": "Github users",
     "about": "Search github users and show user info. Used Github API.",
     "github": "https://github.com/agshinzada/githubUsersWebApp",
-    "img": "/img/port/github.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img": "/img/port/githubapp.png",
+    "img2": "/img/port/githubapp1.png",
+    "img3": "/img/port/githubapp2.png",
     "banner": "HTML5, CSS3, JS",
     "technology": "HTML5, CSS3, Javascript",
     "date": "18 June 2020",
     "pin": 0,
-    "filter": "Javascript"
+    "filter": "Javascript",
+    "link": "https://agshinzada.github.io/githubUsersWebApp/index.html"
   },
   {
     "id": 10,
@@ -131,12 +140,13 @@
     "about": "Exchange Wep application with ExchangeRate API",
     "github": "https://github.com/agshinzada/exchangeWeb",
     "img": "/img/port/exchange.png",
-    "img2": "/img/port/1.jpg",
-    "img3": "/img/port/1.jpg",
+    "img2": "/img/port/exchange1.png",
+    "img3": null,
     "banner": "HTML5, CSS3, JS",
     "technology": "HTML5, CSS3, Javascript",
     "date": "16 June 2020",
     "pin": 0,
-    "filter": "Javascript"
+    "filter": "Javascript",
+    "link": "https://agshinzada.github.io/exchangeWeb/index.html"
   }
 ]
