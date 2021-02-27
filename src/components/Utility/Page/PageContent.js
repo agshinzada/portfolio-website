@@ -30,7 +30,7 @@ export default class PageContent extends Component {
           />
           <Route
             exact
-            path="/resume"
+            path="/portfolio/resume"
             render={() => (
               <Fragment>
                 <BlockTitle title="Education" />
@@ -45,7 +45,7 @@ export default class PageContent extends Component {
 
           <Route
             exact
-            path="/works"
+            path="/portfolio/works"
             render={() => (
               <Fragment>
                 <PortfolioFilter />
@@ -58,7 +58,7 @@ export default class PageContent extends Component {
 
         <Route
           exact
-          path="/contact"
+          path="/portfolio/contact"
           render={() => (
             <div className="row">
               <div className="contact__block">
