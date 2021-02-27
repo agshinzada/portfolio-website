@@ -22,16 +22,16 @@ export default class Navbar extends Component {
           <div className="header__nav">
             <ul className="nav-list link link--nav" id="nav-list">
               <li>
-                <a href="/portfolio">About</a>
+                <a href="/portfolio/works">About</a>
               </li>
               <li>
-                <a href="/works">Portfolio</a>
+                <a href="/portfolio/works">Portfolio</a>
               </li>
               <li>
-                <a href="/resume">Resume</a>
+                <a href="/portfolio/resume">Resume</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/portfolio/contact">Contact</a>
               </li>
             </ul>
           </div>

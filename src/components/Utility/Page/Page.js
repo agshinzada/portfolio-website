@@ -18,7 +18,7 @@ export default class Page extends Component {
         <Switch>
           <Route
             exact
-            path="/resume"
+            path="/portfolio/resume"
             render={(props) => (
               <PageTitle
                 {...props}
@@ -29,7 +29,7 @@ export default class Page extends Component {
           />
           <Route
             exact
-            path="/works"
+            path="/portfolio/works"
             render={(props) => (
               <PageTitle
                 {...props}
@@ -40,7 +40,7 @@ export default class Page extends Component {
           />
           <Route
             exact
-            path="/contact"
+            path="/portfolio/contact"
             render={(props) => (
               <PageTitle
                 {...props}
