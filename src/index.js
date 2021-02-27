@@ -10,7 +10,7 @@ import { Provider } from "react-redux";
 const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="portfolio">
       <React.StrictMode>
         <App />
       </React.StrictMode>
