@@ -7,16 +7,9 @@ import Navbar from "../Navbar/Navbar";
 function App() {
   return (
     <div className="container">
-      <Route
-        path="/portfolio"
-        render={() => (
-          <Fragment>
-            <Navbar />
-            <Main />
-            <Footer />
-          </Fragment>
-        )}
-      />
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
