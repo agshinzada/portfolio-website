@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import DownloadBtn from "../../Utility/Buttons/DownloadBtn";
-import ContactBtn from "../../Utility/Buttons/ContactBtn";
+import DownloadBtn from "../Utility/Buttons/DownloadBtn";
+import ContactBtn from "../Utility/Buttons/ContactBtn";
+import { Link } from "react-router-dom";
 
 export default class Profile extends Component {
   render() {
@@ -16,7 +17,7 @@ export default class Profile extends Component {
           </div>
           <div className="detail__right">
             <h4 className="heading-4">Junior Sotfware Developer</h4>
-            <h1 className="heading-1">Agshinzada</h1>
+            <h1 className="heading-1">Agshin I.</h1>
             <p className="paragraph">
               I am junior software developer, dynamic team player and
               detail-oriented human. You can see my projects on github.

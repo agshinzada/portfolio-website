@@ -8,7 +8,7 @@ export function loadPortfolioModal(data) {
   return { type: actionTypes.LOAD_PORTFOLIO_MODAL, payload: data };
 }
 
-export function openPortfolioModal(data) {
+export function displayPortfolioModal(data) {
   return { type: actionTypes.OPEN_PORTFOLIO_MODAL, payload: data };
 }
 

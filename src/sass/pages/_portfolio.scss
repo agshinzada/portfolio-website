@@ -9,3 +9,15 @@
     }
   }
 }
+
+.filters {
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 600;
+
+  & li {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}

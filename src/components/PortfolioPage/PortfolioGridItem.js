@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as portfolioActions from "../../../redux/actions/portfolioActions";
+import * as portfolioActions from "../../redux/actions/portfolioActions";
 
 class PortfolioGridItem extends Component {
   componentDidMount() {
@@ -60,7 +60,7 @@ function mapDispatchToProps(dispatch) {
         dispatch
       ),
       openModalItem: bindActionCreators(
-        portfolioActions.openPortfolioModal,
+        portfolioActions.displayPortfolioModal,
         dispatch
       ),
     },

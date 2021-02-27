@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as portfolioActions from "../../../redux/actions/portfolioActions";
+import * as portfolioActions from "../../redux/actions/portfolioActions";
 
 class PortfolioFilter extends Component {
   filterPortfolio = (filter) => {
@@ -12,12 +12,15 @@ class PortfolioFilter extends Component {
     return (
       <div className="row flex">
         <div className="portfolio__filters">
-          <ul className="link link--filter">
+          <ul className="flex filters">
             {this.props.items.map((item) => (
               <li key={item.id}>
-                <a onClick={() => this.filterPortfolio(item.name)}>
+                <button
+                  onClick={() => this.filterPortfolio(item.name)}
+                  className="btn--filter"
+                >
                   {item.name}
-                </a>
+                </button>
               </li>
             ))}
           </ul>

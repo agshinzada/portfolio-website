@@ -70,3 +70,14 @@
     font-size: 1.3rem;
   }
 }
+
+.btn--filter {
+  background-color: transparent;
+  color: $color-light;
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $color-white;
+  }
+}

@@ -36,6 +36,10 @@
     border-left: 1px solid $color-dark-light;
     position: relative;
 
+    @include respond(small) {
+      margin-left: 0;
+    }
+
     &:not(:last-child) {
       border-bottom: 1px solid $color-dark-light;
     }
@@ -56,11 +60,19 @@
       margin-top: 4.5rem;
       margin-left: 2rem;
       color: $color-white;
+
+      @include respond(small) {
+        margin-left: 0;
+      }
     }
 
     & p {
       margin-top: 1rem;
       margin-left: 2rem;
+
+      @include respond(small) {
+        margin-left: 0;
+      }
     }
 
     & span {
