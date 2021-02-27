@@ -25,7 +25,7 @@ export default class Footer extends Component {
             </ul>
           </div>
           <div className="footer__copyright">
-            <p>&copy; All rights reserved. Agshinzada</p>
+            <p>&copy; All rights reserved. Agshin I.</p>
           </div>
         </div>
       </footer>

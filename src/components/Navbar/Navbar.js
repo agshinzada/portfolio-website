@@ -8,12 +8,12 @@ export default class Navbar extends Component {
       <header className="header">
         <div className="header__left">
           <div className="header__logo">
-            <a href="/">
+            <a href="/portfolio">
               <img src="img/svg/logo.svg" alt="Logo" />
             </a>
           </div>
           <div className="header__text">
-            <a href="/">
+            <a href="/portfolio">
               Agshin <span>Ismayilzada</span>
             </a>
           </div>
