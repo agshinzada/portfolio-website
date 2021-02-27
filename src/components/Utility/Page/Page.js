@@ -29,7 +29,7 @@ export default class Page extends Component {
           />
           <Route
             exact
-            path="/portfolio"
+            path="/works"
             render={(props) => (
               <PageTitle
                 {...props}

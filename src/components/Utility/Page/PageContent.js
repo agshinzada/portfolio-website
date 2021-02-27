@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
-import Profile from "../../Pages/HomePage/Profile";
-import PortfolioGrid from "../../Pages/PortfolioPage/PortfolioGrid";
-import PortfolioFilter from "../../Pages/PortfolioPage/PortfolioFilter";
-import SkillGrid from "../../Pages/ResumePage/SkillGrid";
-import Certificates from "../../Pages/ResumePage/Certificates";
+import Profile from "../../HomePage/Profile";
+import PortfolioGrid from "../../PortfolioPage/PortfolioGrid";
+import PortfolioFilter from "../../PortfolioPage/PortfolioFilter";
+import SkillGrid from "../../ResumePage/SkillGrid";
+import Certificates from "../../ResumePage/Certificates";
 import BlockContent from "../Block/BlockContent";
 import BlockTitle from "../Block/BlockTitle";
-import Contact from "../../Pages/ContactPage/Contact";
-import Form from "../../Pages/ContactPage/Form";
+import Contact from "../../ContactPage/Contact";
+import Form from "../../ContactPage/Form";
 import PortfolioModal from "../Modal/PortfolioModal";
 
 export default class PageContent extends Component {
@@ -45,7 +45,7 @@ export default class PageContent extends Component {
 
           <Route
             exact
-            path="/portfolio"
+            path="/works"
             render={() => (
               <Fragment>
                 <PortfolioFilter />

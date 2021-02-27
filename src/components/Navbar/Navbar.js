@@ -25,7 +25,7 @@ export default class Navbar extends Component {
                 <a href="/">About</a>
               </li>
               <li>
-                <a href="/portfolio">Portfolio</a>
+                <a href="/works">Portfolio</a>
               </li>
               <li>
                 <a href="/resume">Resume</a>
@@ -37,7 +37,7 @@ export default class Navbar extends Component {
           </div>
         </div>
         <Menu />
-        <Burger/>
+        <Burger />
       </header>
     );
   }
