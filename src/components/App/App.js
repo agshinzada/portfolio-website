@@ -6,11 +6,11 @@ import Navbar from "../Navbar/Navbar";
 
 function App() {
   return (
-    <div className="container">
+    <Fragment>
       <Navbar />
       <Main />
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 
