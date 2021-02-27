@@ -9,7 +9,7 @@ export default class PageTitle extends Component {
         <h1 className="heading-1">{this.props.title}</h1>
         <h4 className="heading-4">{this.props.tag}</h4>
         <Switch>
-          <Route exact path="/portfolio/resume" component={DownloadBtn} />
+          <Route exact path="/resume" component={DownloadBtn} />
         </Switch>
       </div>
     );
