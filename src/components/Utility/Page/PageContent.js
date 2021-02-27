@@ -45,7 +45,7 @@ export default class PageContent extends Component {
 
           <Route
             exact
-            path="/portfolio"
+            path="/works"
             render={() => (
               <Fragment>
                 <PortfolioFilter />

@@ -1,8 +1,8 @@
 .menu-icon {
   display: none;
-  // position: fixed;
-  // top: 25px;
-  // right: 25px;
+  position: fixed;
+  top: 25px;
+  right: 25px;
   cursor: pointer;
   z-index: 21;
   @include respond(medium) {
