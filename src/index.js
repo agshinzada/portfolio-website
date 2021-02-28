@@ -3,18 +3,18 @@ import ReactDOM from "react-dom";
 import "./sass/main.scss";
 import App from "./components/App/App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import configureStore from "./redux/reducers/configureStore";
 import { Provider } from "react-redux";
 
 const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <React.StrictMode>
         <App />
       </React.StrictMode>
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById("root")
 );

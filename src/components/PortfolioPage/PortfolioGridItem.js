@@ -20,7 +20,7 @@ class PortfolioGridItem extends Component {
         {this.props.items.map((item) => (
           <figure
             className="portfolio__item animate__animated animate__zoomIn"
-            id="{item.id}"
+            id={item.id}
             key={item.id}
           >
             <img

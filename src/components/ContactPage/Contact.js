@@ -18,16 +18,18 @@ export default class Contact extends Component {
           </div>
         </div>
         <div className="call-box flex mb-sm">
-          <div className="img-box">
-            <img
-              src="img/svg/whatsapp.svg"
-              alt="call-icon"
-              className="contact-img"
-            />
-          </div>
-          <div className="text-box flex">
-            <h4 className="heading-4">whatsapp</h4>
-          </div>
+          <a href="https://wa.me/message/UPQO5G5HVSY4I1">
+            <div className="img-box">
+              <img
+                src="img/svg/whatsapp.svg"
+                alt="call-icon"
+                className="contact-img"
+              />
+            </div>
+            <div className="text-box flex">
+              <h4 className="heading-4">whatsapp</h4>
+            </div>
+          </a>
         </div>
         <div className="social-box mb-sm">
           <a href="https://facebook.com/agshinzada/">
@@ -37,7 +39,7 @@ export default class Contact extends Component {
             <img src="img/svg/linkedin.svg" alt="linkedin-icon" />
           </a>
           <a href="https://github.com/agshinzada/">
-            <img src="img/svg/github.svg" alt="github-icon" />
+            <img src="img/svg/githubC.svg" alt="github-icon" />
           </a>
         </div>
       </div>
