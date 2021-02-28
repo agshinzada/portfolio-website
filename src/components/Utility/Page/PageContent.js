@@ -18,7 +18,7 @@ export default class PageContent extends Component {
         <Switch>
           <Route
             exact
-            path="/#/portfolio"
+            path="/#"
             render={() => (
               <Fragment>
                 <Profile />
@@ -30,7 +30,7 @@ export default class PageContent extends Component {
           />
           <Route
             exact
-            path="/#/portfolio/resume"
+            path="/#/resume"
             render={() => (
               <Fragment>
                 <BlockTitle title="Education" />
@@ -45,7 +45,7 @@ export default class PageContent extends Component {
 
           <Route
             exact
-            path="/#/portfolio/works"
+            path="/#/works"
             render={() => (
               <Fragment>
                 <PortfolioFilter />
@@ -58,7 +58,7 @@ export default class PageContent extends Component {
 
         <Route
           exact
-          path="/#/portfolio/contact"
+          path="/#/contact"
           render={() => (
             <div className="row">
               <div className="contact__block">
