@@ -18,7 +18,7 @@ export default class Contact extends Component {
           </div>
         </div>
         <div className="call-box flex mb-sm">
-          <a href="https://wa.me/message/UPQO5G5HVSY4I1">
+          <a href="https://wa.link/0anre5">
             <div className="img-box">
               <img
                 src="img/svg/whatsapp.svg"
