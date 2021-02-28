@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Profile from "../../HomePage/Profile";
 import PortfolioGrid from "../../PortfolioPage/PortfolioGrid";
 import PortfolioFilter from "../../PortfolioPage/PortfolioFilter";
@@ -15,61 +15,63 @@ export default class PageContent extends Component {
   render() {
     return (
       <div className="page__content">
-        <Switch>
-          <Route
-            exact
-            path="/#"
-            render={() => (
-              <Fragment>
-                <Profile />
-                <BlockTitle title="Pinned projects" />
-                <PortfolioGrid home="pin" />
-                <PortfolioModal />
-              </Fragment>
-            )}
-          />
-          <Route
-            exact
-            path="/#/resume"
-            render={() => (
-              <Fragment>
-                <BlockTitle title="Education" />
-                <BlockContent />
-                <BlockTitle title="Skills" />
-                <SkillGrid />
-                <BlockTitle title="Certificates" />
-                <Certificates />
-              </Fragment>
-            )}
-          />
-
-          <Route
-            exact
-            path="/#/works"
-            render={() => (
-              <Fragment>
-                <PortfolioFilter />
-                <PortfolioGrid />
-                <PortfolioModal />
-              </Fragment>
-            )}
-          />
-        </Switch>
-
-        <Route
-          exact
-          path="/#/contact"
-          render={() => (
-            <div className="row">
-              <div className="contact__block">
+        <HashRouter basename={process.env.PUBLIC_URL}>
+          {" "}
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() => (
                 <Fragment>
-                  <Contact />
-                  <Form />
+                  <Profile />
+                  <BlockTitle title="Pinned projects" />
+                  <PortfolioGrid home="pin" />
+                  <PortfolioModal />
                 </Fragment>
-              </div>
-            </div>
-          )}
-        />
+              )}
+            />
+            <Route
+              exact
+              path="/resume"
+              render={() => (
+                <Fragment>
+                  <BlockTitle title="Education" />
+                  <BlockContent />
+                  <BlockTitle title="Skills" />
+                  <SkillGrid />
+                  <BlockTitle title="Certificates" />
+                  <Certificates />
+                </Fragment>
+              )}
+            />
+
+            <Route
+              exact
+              path="/works"
+              render={() => (
+                <Fragment>
+                  <PortfolioFilter />
+                  <PortfolioGrid />
+                  <PortfolioModal />
+                </Fragment>
+              )}
+            />
+            <Route
+              exact
+              path="/contact"
+              render={() => (
+                <div className="row">
+                  <div className="contact__block">
+                    <Fragment>
+                      <Contact />
+                      <Form />
+                    </Fragment>
+                  </div>
+                </div>
+              )}
+            />
+          </Switch>
+        </HashRouter>
       </div>
     );
   }
