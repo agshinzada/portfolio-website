@@ -18,7 +18,7 @@ export default class PageContent extends Component {
         <Switch>
           <Route
             exact
-            path="/portfolio"
+            path="/#/portfolio"
             render={() => (
               <Fragment>
                 <Profile />
