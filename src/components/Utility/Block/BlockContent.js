@@ -15,8 +15,10 @@ export default class BlockContent extends Component {
           </div>
           <div className="block__content">
             <h5 className="heading-5">2019 - 2020</h5>
-            <span className="locate">Development</span>
-            <h4 className="heading-4">Java SE(FX) and EE(JSP&Servlet)</h4>
+            <span className="locate">
+              <b>Development</b>
+            </span>
+            <h4 className="heading-4">Java SE (FX) and EE (JSP & Servlet)</h4>
             <p className="paragraph">Orient ITM</p>
           </div>
           <div className="block__content">
