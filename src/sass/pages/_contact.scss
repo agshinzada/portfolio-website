@@ -51,6 +51,9 @@
     color: $color-white;
     text-transform: uppercase;
   }
+  & a {
+    display: flex;
+  }
 }
 
 .social-box {
@@ -60,6 +63,7 @@
   & a img {
     width: 32px;
     height: 32px;
+    box-shadow: -3px 3px 4px $color-dark-light-2;
   }
 }
 
