@@ -26,16 +26,16 @@ class Menu extends Component {
         style={styles.responsive}
       >
         <li>
-          <a href="/portfolio">About</a>
+          <a href="/#">About</a>
         </li>
         <li>
-          <a href="/portfolio/works">Portfolio</a>
+          <a href="/#/works">Portfolio</a>
         </li>
         <li>
-          <a href="/portfolio/resume">Resume</a>
+          <a href="/#/resume">Resume</a>
         </li>
         <li>
-          <a href="/portfolio/contact">Contact</a>
+          <a href="/#/contact">Contact</a>
         </li>
       </ul>
     );
