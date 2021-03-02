@@ -10,7 +10,7 @@ export default class PageTitle extends Component {
         <h4 className="heading-4">{this.props.tag}</h4>
         <HashRouter basename={process.env.PUBLIC_URL}>
           <Switch>
-            <Route exact path="/#/resume" component={DownloadBtn} />
+            <Route exact path="/resume" component={DownloadBtn} />
           </Switch>
         </HashRouter>
       </div>
