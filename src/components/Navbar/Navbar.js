@@ -1,44 +1,36 @@
 import React, { Component } from "react";
-import Burger from "./Burger";
-import Menu from "./Menu";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <header className="header">
-        <div className="header__left">
-          <div className="header__logo">
-            <a href="/#">
-              <img src="img/svg/logo.svg" alt="Logo" />
-            </a>
-          </div>
-          <div className="header__text">
-            <a href="/#">
-              Agshin <span>Ismayilzada</span>
-            </a>
-          </div>
-        </div>
-        <div className="header__right">
-          <div className="header__nav">
-            <ul className="nav-list link link--nav" id="nav-list">
-              <li>
-                <a href="/#">About</a>
-              </li>
-              <li>
-                <a href="/#/works">Portfolio</a>
-              </li>
-              <li>
-                <a href="/#/resume">Resume</a>
-              </li>
-              <li>
-                <a href="/#/contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <Menu />
-        <Burger />
-      </header>
+      <div className="navbar">
+        <ul className="navbar__items">
+          <a href="/#">
+            <li className="navbar__item">
+              <img src="img/svg/person.svg" alt="about" />
+              <span>About</span>
+            </li>
+          </a>
+          <a href="#/resume">
+            <li className="navbar__item">
+              <img src="img/svg/document.svg" alt="resume" />
+              <span>Resume</span>
+            </li>
+          </a>
+          <a href="#/works">
+            <li className="navbar__item">
+              <img src="img/svg/embed.svg" alt="works" />
+              <span>Works</span>
+            </li>
+          </a>
+          <a href="#/contact">
+            <li className="navbar__item">
+              <img src="img/svg/mail.svg" alt="contact" />
+              <span>Contact</span>
+            </li>
+          </a>
+        </ul>
+      </div>
     );
   }
 }

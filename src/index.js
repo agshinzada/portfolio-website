@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./sass/main.scss";
+import { HashRouter } from "react-router-dom";
 import App from "./components/App/App";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter } from "react-router-dom";
+import "./sass/main.scss";
 import configureStore from "./redux/reducers/configureStore";
 import { Provider } from "react-redux";
 
@@ -16,6 +16,7 @@ ReactDOM.render(
       </React.StrictMode>
     </HashRouter>
   </Provider>,
+
   document.getElementById("root")
 );
 

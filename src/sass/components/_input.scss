@@ -1,31 +1,29 @@
-.input {
-  font-size: 1.4rem;
-  color: $color-dark-light-3;
-  padding: 1rem;
-  border-radius: 5px;
-  background-color: transparent;
-  border: 2px solid $color-dark-light-3;
-  margin-bottom: 1.5rem;
-  transition: border 0.5s;
-
+.field {
+  font-size: 1.6rem;
+  transition: all 0.4s;
+  border-bottom: 1px solid whitesmoke;
   &:active,
   &:focus {
-    border: 2px solid $color-primary;
+    border-bottom: 2px solid $color-text-primary--2;
+    transform: translateY(-2px);
   }
-}
 
-.input--text {
-  width: 25vw;
-  height: 4rem;
-  @include respond(small) {
-    width: 100%;
+  &--text {
+    width: 23vw;
+    height: 5rem;
+    margin-bottom: 3rem;
+    @include respond(medium) {
+      width: 100%;
+    }
   }
-}
 
-.input--textarea {
-  width: 25vw;
-  height: 15rem;
-  @include respond(small) {
-    width: 100%;
+  &--area {
+    width: 46vw;
+    height: 12rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    @include respond(medium) {
+      width: 100%;
+    }
   }
 }

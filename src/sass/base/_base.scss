@@ -1,18 +1,8 @@
 html {
+  font-size: 62.5%;
   font-family: $font-family;
-  font-weight: 400;
-  font-size: 62.5%; // 1rem = 10px
 }
 
-h1 {
-  color: $color-white;
-  font-size: 3rem;
-}
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: $color-light;
+a {
+  color: $color-text-primary;
 }

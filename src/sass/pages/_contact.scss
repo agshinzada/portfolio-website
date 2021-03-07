@@ -1,80 +1,33 @@
 .contact {
-  &__block {
+  &__item {
     display: flex;
-    justify-content: center;
-    padding: 8rem 0;
-    @include respond(small) {
+    @include respond(medium) {
       flex-direction: column;
-      align-items: center;
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    @include respond(medium) {
+      margin-bottom: 2rem;
     }
 
-    & form {
-      @include respond(small) {
-        width: 100%;
+    & span {
+      margin-right: 4rem;
+      @include respond(medium) {
+        margin-right: 0;
       }
     }
-  }
-}
 
-.left-side {
-  justify-content: center;
-  margin-right: 4rem;
-  @include respond(small) {
-    margin-right: 0;
-    width: 100%;
-  }
-}
+    & img {
+      width: 35px;
+      height: 35px;
+      margin-right: 1rem;
+    }
 
-.right-side {
-  justify-content: center;
-  @include respond(small) {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  & .left-column {
-    @include respond(small) {
-      margin-right: 0;
+    & span {
+      font-size: 1.6rem;
     }
   }
-}
-
-.mail-box {
-  & h4 {
-    color: $color-white;
-    text-transform: uppercase;
-  }
-}
-
-.call-box {
-  & h4 {
-    color: $color-white;
-    text-transform: uppercase;
-  }
-  & a {
-    display: flex;
-  }
-}
-
-.social-box {
-  & a:not(:last-child) {
-    margin-right: 1rem;
-  }
-  & a img {
-    width: 32px;
-    height: 32px;
-    box-shadow: -3px 3px 4px $color-dark-light-2;
-  }
-}
-
-.contact-img {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  margin-right: 2rem;
-}
-
-.text-box {
-  flex-direction: column;
-  justify-content: center;
 }
