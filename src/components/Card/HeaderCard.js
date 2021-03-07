@@ -36,7 +36,7 @@ export default class HeaderCard extends Component {
           </a>
         </div>
         <div className="card__menu">
-          <a href="#/cv.pdf">
+          <a href="/cv.pdf">
             <button className="btn btn--menu">Download CV</button>
           </a>
           <img
