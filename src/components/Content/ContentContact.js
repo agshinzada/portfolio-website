@@ -26,17 +26,20 @@ export default class ContentContact extends Component {
                 placeholder="Full Name"
                 name="name"
                 className="field field--text"
+                required
               />
               <input
                 type="text"
                 placeholder="Email"
                 name="email"
                 className="field field--text"
+                required
               />
               <textarea
                 placeholder="Message"
                 className="field field--area"
                 name="message"
+                required
               />
               <button className="btn" type="submit">
                 Send message &rarr;
