@@ -68,19 +68,19 @@ export default class SkillItem extends Component {
             <li className="skill__line">
               <h5 className="heading-5">Javascript</h5>
               <div className="progress">
-                <div className="percentage" style={{ width: "60%" }}></div>
+                <div className="percentage" style={{ width: "75%" }}></div>
               </div>
             </li>
             <li className="skill__line">
               <h5 className="heading-5">React, Redux</h5>
               <div className="progress">
-                <div className="percentage" style={{ width: "65%" }}></div>
+                <div className="percentage" style={{ width: "75%" }}></div>
               </div>
             </li>
             <li className="skill__line">
               <h5 className="heading-5">jQuery</h5>
               <div className="progress">
-                <div className="percentage" style={{ width: "50%" }}></div>
+                <div className="percentage" style={{ width: "70%" }}></div>
               </div>
             </li>
           </ul>

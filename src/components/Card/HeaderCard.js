@@ -7,7 +7,7 @@ export default class HeaderCard extends Component {
         <div className="card__img"></div>
         <div className="card__text">
           <h1 className="heading-1">Agshin Ismayilzada</h1>
-          <h4 className="heading-4">Software Developer</h4>
+          <h4 className="heading-4">Front-end Developer</h4>
         </div>
         <div className="card__links">
           <a href="https://wa.link/0anre5" target="_blank" rel="noreferrer">
